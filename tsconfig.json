@@ -1,17 +1,12 @@
 {
     "compilerOptions": {
-        "target": "ESNext",
-        "module": "ESNext",
-        "moduleResolution": "node",
-        "esModuleInterop": true,
-        "sourceMap": true,
-        "baseUrl": "./",
-        "paths": {
-            "*": [
-                "*",
-                "@types/*",
-                "node_modules/@types/*",
-            ],
-        },
-    }
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
+    },
+    "include": ["src/**/*"]
 }

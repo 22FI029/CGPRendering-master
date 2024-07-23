@@ -9,6 +9,7 @@
     "start": "webpack-dev-server",
     "build": "webpack"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomoakimoriya/CGPRendering.git"
@@ -45,4 +46,5 @@
     "webpack-dev-server": "^4.10.1",
     "worker-loader": "^3.0.3"
   }
+  
 }
